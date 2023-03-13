@@ -1049,3 +1049,20 @@ a {
 .tw {
 	color: #999;
 }
+
+/*
+[[Feature request] 16:9 image size, the 1:1 now is too narrow, the text part is too wide. #14](https://github.com/Seraphli/obsidian-link-embed/issues/14)
+*/
+._lc._sm:not(.xd) .wc {
+    min-width: 300px;
+    min-height: 169px;
+}
+
+a.c{
+  min-width: 300px;
+  min-height: 169px;
+}
+
+.e {
+  padding-bottom: 0% !important;
+}
